@@ -1,0 +1,12 @@
+@media print {
+  @page {
+    margin: 10mm; /* Adjust as needed */
+  }
+  body {
+    -webkit-print-color-adjust: exact; /* Ensures background colors print */
+    print-color-adjust: exact; /* Standard property for compatibility */
+  }
+  header, footer {
+    display: none !important; /* Hide headers & footers */
+  }
+}
