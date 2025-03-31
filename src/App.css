@@ -1,12 +1,12 @@
-@media print {
+/* @media print {
   @page {
-    margin: 10mm; /* Adjust as needed */
+    margin: 10mm;
   }
   body {
-    -webkit-print-color-adjust: exact; /* Ensures background colors print */
-    print-color-adjust: exact; /* Standard property for compatibility */
+    -webkit-print-color-adjust: exact; 
+    print-color-adjust: exact; 
   }
   header, footer {
-    display: none !important; /* Hide headers & footers */
+    display: none !important;
   }
-}
+} */
